@@ -1,0 +1,44 @@
+/* Adicione este estilo no seu arquivo de estilo (por exemplo, styles.css ou styles.scss) */
+
+.example-card {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mat-card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.example-full-width {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.example-button-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.example-button-row button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.example-button-row button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.example-button-row button.mat-flat-button {
+  margin-right: 10px;
+}

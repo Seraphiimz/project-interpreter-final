@@ -1,0 +1,22 @@
+<div>
+  <h2>Lista de Itens</h2>
+  <mat-list class="custom-list">
+    <mat-list-item *ngFor="let Interpreter_user of pesquisados_interpreter" class="custom-list-item">
+      <img matListAvatar [src]="Interpreter_user.perfilImg" alt="{{ Interpreter_user.nome }} Foto de Perfil" class="mat-list-avatar">
+      <div class="mat-list-content">
+        <div class="mat-list-text">
+          <h3>{{ Interpreter_user.nome }}</h3>
+          <p>{{ Interpreter_user.matricula }} - {{ Interpreter_user.email }} - {{ Interpreter_user.telefone }}</p>
+        </div>
+        <div class="mat-list-actions">
+          <button mat-icon-button (click)="editar(Interpreter_user)">
+            <mat-icon>editor</mat-icon>
+          </button>
+          <button mat-icon-button (click)="deleteItem(Interpreter_user)">
+            <mat-icon>remover</mat-icon>
+          </button>
+        </div>
+      </div>
+    </mat-list-item>
+  </mat-list>
+</div>

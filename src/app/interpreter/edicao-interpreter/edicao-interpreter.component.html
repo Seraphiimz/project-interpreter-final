@@ -1,0 +1,28 @@
+<mat-card class="example-card">
+  <mat-card-content>
+    <mat-form-field class="example-full-width">
+      <mat-label>Novo Nome</mat-label>
+      <input matInput [(ngModel)]="novoNome" placeholder="Digite o novo nome">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Nova Matricula</mat-label>
+      <input matInput [(ngModel)]="novaMatricula" placeholder="Digite a nova matricula">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Nova Email</mat-label>
+      <input matInput [(ngModel)]="novoEmail" placeholder="Digite o novo e-mail">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Nova Telefone</mat-label>
+      <input matInput [(ngModel)]="novoTelefone" placeholder="Digite o novo telefone">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Nova Horario</mat-label>
+      <input matInput [(ngModel)]="novoHorario" placeholder="Digite o novo horário">
+    </mat-form-field>
+    <div class="example-button-row">
+      <button mat-button color="accent" (click)="salvarEdicao()">Salvar Edição</button>
+      <button mat-button color="warn" (click)="cancelarEdicao()">Cancelar</button>
+    </div>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,54 @@
+div {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+mat-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+mat-list-item img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+mat-icon-button {
+  background-color: #3498db;
+  color: white;
+  margin-left: 10px;
+}
+
+mat-icon-button:hover {
+  background-color: #2980b9;
+}
+
+div > div {
+  margin-top: 20px;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+mat-raised-button {
+  background-color: #3498db;
+  color: white;
+}
+
+mat-raised-button:hover {
+  background-color: #2980b9;
+}

@@ -1,0 +1,11 @@
+<div class="buscar">
+  <h2>Buscar Usuários</h2>
+  <label for="name">Nome:</label>
+  <input type="text" id="name" name="name" [(ngModel)]="searchName">
+
+  <button (click)="search()">Buscar</button>
+
+  <ul>
+    <li *ngFor="let user of searchResults">{{ user.name }}</li>
+  </ul>
+</div>

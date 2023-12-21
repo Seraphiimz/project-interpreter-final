@@ -1,0 +1,26 @@
+<div>
+  <h2>Cadastrar</h2>
+  <form (ngSubmit)="register()">
+    <mat-form-field appearance="fill">
+      <mat-label>Novo Usuario</mat-label>
+      <input matInput type="name" required>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Email</mat-label>
+      <input matInput type="email" required>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Senha</mat-label>
+      <input matInput type="password" required>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Confirmar Senha</mat-label>
+      <input matInput type="password" required>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Cadastrar</button>
+  </form>
+</div>
